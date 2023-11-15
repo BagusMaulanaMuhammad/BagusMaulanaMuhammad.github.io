@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'josif-sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 17, 17);
+    background-size: cover;
+    min-height: 2000PX;
+}
+h1, h2, h4, h6{
+    color: rgb(246, 248, 247);
+
+}
+nav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    z-index: 500;
+}
+.logo {
+    position: left;
+    color: #0d88f4;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    color: rgb(9, 224, 224);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: rgb(9, 239, 239);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 0); 
+    transition: .4s;
+}
+.btn{
+    background-color: rgb(6, 242, 242);
+    color: rgb(10, 20, 17);
+    text-decoration: none;
+    border: 2px transparent;
+    font-weight: bold;
+    padding: 10px ;
+    border-radius: 30px;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+.btn:hover{
+    transform: scale(2,2);
+}
+.img-background{
+    background-attachment: fixed;
+}
+.content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+h1{
+    margin: auto;
+    font-size: medium;
+}
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(1, 1, 3, 1) 3%) rgba(255, 255, 255, 0) 25%;
+}
+header.sticky{
+    background: var(--bg-color);
+    box-shadow:0,1rem 1rem rgba(0, 0, 0, 3);
+    padding: 16px 16%;
+}
+hr {
+    width: auto;
+    size: none;
+    color: rgb(from color r g b);
+}
